@@ -1,7 +1,12 @@
 import React from "react";
+import AuthRegistration from "../../features/auth/registration";
 
 const Registration = () => {
-  return <div>Registration</div>;
+  return (
+    <>
+      <AuthRegistration />
+    </>
+  );
 };
 
 export default Registration;
